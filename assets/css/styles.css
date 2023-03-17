@@ -1,0 +1,124 @@
+/* import font */
+@font-face {
+    font-family: "poppins";
+    src: url(../font/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: "jokerman";
+    src: url(../font/Jokerman.TTF);
+}
+
+/* global  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+
+}
+a{
+    font-style: none;
+}
+.uppercase{
+    text-transform: uppercase;
+    font-family: 'poppins';
+}
+
+/* header */
+section{
+    background-image: url("../image//background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    margin-top: 1rem !important;
+    position: relative;
+}
+.dark{
+    color:#000 !important ;
+}
+.dark:hover {
+    color: green !important;
+}
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}
+.logo span{
+    color: red;
+}
+.navbar{
+    padding-top: 1px !important; 
+    padding-bottom:0 !important;
+}
+.nav-link{
+    font-family: 'poppins' !important;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+.nav-link:hover{
+    color: green;
+}
+
+
+.icon i{
+    font-size: 2rem;
+    display: none;
+}
+
+/* section */
+
+.title h1{
+    font-family: "jokerman";
+    text-transform: uppercase;
+    font-size: 3.58rem;
+}
+.title .sub-title{
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+.mg-carousel img{
+    width: 500px;
+    height: 400px;
+}
+
+.mg-carousel{
+    width: 250px !important;
+    border-radius: 30px;
+    margin-left: 0;
+    
+}
+.mg-carousel:hover + .name{
+   visibility: visible;
+}
+
+/* about wonder */
+
+.about-title p{
+    font-size: 20px;
+}
+.name{
+    position: absolute;
+    top: 86px;
+    max-width: 249px;
+    text-align: center;
+    
+    height: 142px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    visibility: hidden;
+    font-family: 'poppins';
+    font-weight: bold;
+    
+}
+.map{
+    width: 300px;
+    height: 300px;
+    
+}
